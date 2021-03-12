@@ -3,7 +3,7 @@
 int main()
 {
 	    float a,b,c;
-			    printf("请输入三角形的三条边:\n");
+			    printf("请输入triangle的三条边:\n");
 				    scanf("%f %f %f",&a,&b,&c);
 					    if(a+b>c&&b+c>a&&a+c>b)
 							    {
@@ -17,6 +17,6 @@ int main()
 																								            printf("三角形是普通三角形\n");
 																							    }
 						    else
-								        printf("不能构成三角形\n");
+								        printf("不能构成triangle\n");
 							    return 0;
 }
